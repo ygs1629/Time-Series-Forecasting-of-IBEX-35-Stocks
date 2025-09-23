@@ -1,2 +1,44 @@
-# Time-Series-Forecasting-of-IBEX-35-Stocks
-Forecasting Spanish stock returns (2016-2024) using ARIMA, VAR, and benchmark models. Features distribution analysis, rolling volatility, and model comparison demonstrating ARIMA's superior performance.
+# IBEX 35 Stock Returns Forecasting
+
+## Overview
+Comprehensive time series analysis and forecasting of major Spanish stocks (2016-2024) comparing multiple statistical approaches for logarithmic returns prediction.
+
+## Objective
+- Analyze distributional properties of stock returns
+- Compare forecasting performance of Naïve, ARIMA, and VAR models
+- Evaluate practical applicability in financial markets
+
+## Data
+- **Source**: Yahoo Finance (monthly data)
+- **Period**: January 2016 - December 2024
+- **Assets**: IBEX 35 + 6 leading stocks (SAN, ITX, IBE, GRF, FER, TEF)
+- **Transformation**: Logarithmic returns (`diff(log(Adjusted_Close)) * 100`)
+
+## Techniques
+- **Exploratory Analysis**: Normality tests, rolling volatility, correlation dynamics
+- **Forecasting Models**: 
+  - Naïve (baseline)
+  - ARIMA (univariate with auto parameter selection)
+  - VAR (multivariate with optimal lag selection)
+- **Validation**: Train (2016-2021) / Validation (2022-2023) / Test (2024) split
+
+## Evaluation Metrics
+- **RMSE** (Root Mean Square Error)
+- **MAE** (Mean Absolute Error)
+- Model comparison on validation set
+
+## Key Visual Takeaways
+
+### Model Performance Comparison RMSE
+
+*ARIMA consistently outperforms other models across most assets*
+
+
+## Skills and Tools
+- **Languages**: R
+- **Libraries**: forecast, vars, quantmod, ggplot2, plotly, xts, zoo
+- **Skills**: Time series decomposition, statistical testing, model validation, financial data visualization
+- **Methods**: Distribution analysis, autocorrelation diagnostics, multivariate forecasting
+
+---
+**Note**: HTML in Spanish; description here is in English for international visibility and portfolio presentation. The graphics shown are all own-elaborated. This is solely an educational project, not for investment purposes.
