@@ -32,7 +32,7 @@ Comprehensive time series analysis and forecasting of major Spanish stocks (2016
 ## Key Visual Takeaways
 
 ### Rolling Volatility Patterns (12-month)
-![Volatility](images/rolling_volatility.png)
+![Volatility](images/Rolling_volatility.png)
 *Volatility clustering during crisis periods (2020) and sector-specific patterns*
 
 ### MAE comparison across all models (validation set)
