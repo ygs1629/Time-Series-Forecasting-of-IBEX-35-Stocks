@@ -33,10 +33,12 @@ Comprehensive time series analysis and forecasting of major Spanish stocks (2016
 
 ### Rolling Volatility Patterns (12-month)
 ![Volatility](images/Rolling_volatility_.jpeg)
+
 *Volatility clustering during crisis periods (2020) and sector-specific patterns*
 
 ### MAE comparison across all models (validation set)
 ![MAE Validation](images/MAE_comparison_across_models_validation_set.jpeg)
+
 *ARIMA consistently outperforms the other models*
 
 
