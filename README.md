@@ -42,6 +42,12 @@ Comprehensive time series analysis and forecasting of major Spanish stocks (2016
 *ARIMA consistently outperforms the other models*
 
 
+### Limitations and Final Remarks
+
+Although note mentioned in the HTML, ARIMA proves valuable as a competitive benchmark but shows clear limitations for financial returns, typically capturing little beyond the near-zero mean. Its forecasting gains over naïve models are modest in context, highlighting that more specialized approaches (e.g., GARCH) are better suited to address volatility clustering and heavy tails. In practice, ARIMA should be viewed as a reference baseline rather than a final predictive tool.
+
+
+
 ## Skills and Tools
 - **Languages**: R
 - **Libraries**: forecast, vars, quantmod, ggplot2, plotly, xts, zoo
