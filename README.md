@@ -55,4 +55,4 @@ Although note mentioned in the HTML, ARIMA proves valuable as a competitive benc
 - **Methods**: Distribution analysis, autocorrelation diagnostics, multivariate forecasting
 
 ---
-**Note**: HTML in Spanish; description here is in English for international visibility and portfolio presentation. The graphics shown are all own-elaborated. This is solely an educational project, not for investment purposes.
+**Note**: HTML in Spanish; description here is in English for international visibility and portfolio presentation. The graphics shown are all own-elaborated. This is solely an educational project, not for investment purposes.The main motivation was to apply predictive modeling techniques learned at university to real-world financial data, exploring their strengths and limitations in a practical context.
